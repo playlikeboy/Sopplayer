@@ -5,7 +5,7 @@
  
  - Source :- [https://github.com/dtube/embed](https://github.com/dtube/embed)
  - Codepen :- [https://codepen.io/SH20RAJ/pen/vYJVOYK?editors=1000](https://codepen.io/SH20RAJ/pen/vYJVOYK?editors=1000)
- - GitHub :- [https://github.com/SH20RAJ/Sopplayer/blob/main/dtube/index.md](https://github.com/SH20RAJ/Sopplayer/blob/main/dtube/index.md)
+ - GitHub :- [https://github.com/playlikeboy/Sopplayer/blob/main/dtube/index.md](https://github.com/playlikeboy/Sopplayer/blob/main/dtube/index.md)
  
  - Know More about Video.JS Features and Installation :- [https://codexdindia.blogspot.com/search/label/Video.js](https://codexdindia.blogspot.com/search/label/Video.js)
 ## Installation
@@ -14,13 +14,13 @@
  - **Add CSS CDN in between head tags**
 
 	```
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@main/dtube/dtube.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@main/dtube/dtube.min.css"/>
 	```
 
 - **Add JavaScript CDN in before ending body tags**
 
 	```
-	<script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@main/dtube/dtube.min.js"/>
+	<script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@main/dtube/dtube.min.js"/>
 	```
 
 - **Add Video Tag where you want**

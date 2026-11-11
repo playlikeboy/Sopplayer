@@ -18,7 +18,7 @@ The Sopplayer project takes the security of our library and downstream web appli
 
 If you discover a potential security vulnerability in Sopplayer, please **do not open a public GitHub issue**. Instead, please report it privately:
 
-1. **GitHub Security Advisories**: Submit an advisory privately through the [Sopplayer Security Advisories](https://github.com/SH20RAJ/Sopplayer/security/advisories/new) page.
+1. **GitHub Security Advisories**: Submit an advisory privately through the [Sopplayer Security Advisories](https://github.com/playlikeboy/Sopplayer/security/advisories/new) page.
 2. **Direct Email**: Alternatively, email the maintainer directly at `sh20raj@gmail.com` with the subject line: `[Security] Vulnerability in Sopplayer`.
 
 Please include in your report:

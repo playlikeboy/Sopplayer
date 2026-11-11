@@ -36,13 +36,13 @@ Update from unversioned URLs to **immutable versioned URLs** for production reli
 
 - **Legacy**:
   ```html
-  <link href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/sopplayer.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/sopplayer.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/sopplayer.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/sopplayer.min.js"></script>
   ```
 - **Recommended v2.0.0**:
   ```html
-  <link href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
   ```
 
 ### 3. JavaScript Initialization

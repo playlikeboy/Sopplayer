@@ -45,4 +45,4 @@ const player = new Sopplayer('#my-video', {
 
 ## `duolingo`
 
-Playful green/yellow player skin with rounded, tactile controls. See the live showcase at `https://sh20raj.github.io/Sopplayer/demo/themes/?theme=duolingo`.
+Playful green/yellow player skin with rounded, tactile controls. See the live showcase at `https://playlikeboy.github.io/Sopplayer/demo/themes/?theme=duolingo`.

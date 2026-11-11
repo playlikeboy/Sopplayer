@@ -4,20 +4,20 @@
 
 **The Ultra-Lightweight, Accessible & Zero-Dependency HTML5 Video Player**
 
-[![Version](https://img.shields.io/badge/version-2.0.0-38bdf8.svg?style=flat-square)](https://github.com/SH20RAJ/Sopplayer/releases)
-[![Bundle Size](https://img.shields.io/badge/bundle%20size-%3C40%20KB%20min-10b981.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.js)
-[![Gzip Size](https://img.shields.io/badge/gzipped-~11%20KB-059669.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.js)
-[![Dependencies](https://img.shields.io/badge/dependencies-0%20(Pure%20JS)-818cf8.svg?style=flat-square)](https://github.com/SH20RAJ/Sopplayer/blob/main/package.json)
-[![Docs](https://img.shields.io/badge/docs-Sopplayer%20Docs-58cc02?style=flat-square)](https://sh20raj.github.io/Sopplayer/docs/)\n[![Accessibility](https://img.shields.io/badge/accessibility-WCAG%202.1%20AA-a855f7.svg?style=flat-square)](https://sh20raj.github.io/Sopplayer/demo/accessibility/)
+[![Version](https://img.shields.io/badge/version-2.0.0-38bdf8.svg?style=flat-square)](https://github.com/playlikeboy/Sopplayer/releases)
+[![Bundle Size](https://img.shields.io/badge/bundle%20size-%3C40%20KB%20min-10b981.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.js)
+[![Gzip Size](https://img.shields.io/badge/gzipped-~11%20KB-059669.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.js)
+[![Dependencies](https://img.shields.io/badge/dependencies-0%20(Pure%20JS)-818cf8.svg?style=flat-square)](https://github.com/playlikeboy/Sopplayer/blob/main/package.json)
+[![Docs](https://img.shields.io/badge/docs-Sopplayer%20Docs-58cc02?style=flat-square)](https://playlikeboy.github.io/Sopplayer/docs/)\n[![Accessibility](https://img.shields.io/badge/accessibility-WCAG%202.1%20AA-a855f7.svg?style=flat-square)](https://playlikeboy.github.io/Sopplayer/demo/accessibility/)
 [![License](https://img.shields.io/badge/license-MIT-64748b.svg?style=flat-square)](./LICENSE)
-[![jsDelivr Hits](https://data.jsdelivr.com/v1/package/gh/SH20RAJ/Sopplayer/badge)](https://www.jsdelivr.com/package/gh/SH20RAJ/Sopplayer)
-[![Build Status](https://img.shields.io/badge/tests-18%20passing-brightgreen.svg?style=flat-square)](https://github.com/SH20RAJ/Sopplayer/actions)
+[![jsDelivr Hits](https://data.jsdelivr.com/v1/package/gh/playlikeboy/Sopplayer/badge)](https://www.jsdelivr.com/package/gh/playlikeboy/Sopplayer)
+[![Build Status](https://img.shields.io/badge/tests-18%20passing-brightgreen.svg?style=flat-square)](https://github.com/playlikeboy/Sopplayer/actions)
 
 <p align="center">
-  <a href="https://sh20raj.github.io/Sopplayer/"><strong>Live Showcase</strong></a> &bull;
-  <a href="https://sh20raj.github.io/Sopplayer/demo/"><strong>Interactive Playground</strong></a> &bull;
-  <a href="https://sh20raj.github.io/Sopplayer/players/"><strong>Theme Gallery</strong></a> &bull;
-  <a href="https://sh20raj.github.io/Sopplayer/demo/accessibility/"><strong>A11y Lab</strong></a> &bull;
+  <a href="https://playlikeboy.github.io/Sopplayer/"><strong>Live Showcase</strong></a> &bull;
+  <a href="https://playlikeboy.github.io/Sopplayer/demo/"><strong>Interactive Playground</strong></a> &bull;
+  <a href="https://playlikeboy.github.io/Sopplayer/players/"><strong>Theme Gallery</strong></a> &bull;
+  <a href="https://playlikeboy.github.io/Sopplayer/demo/accessibility/"><strong>A11y Lab</strong></a> &bull;
   <a href="./docs/"><strong>Documentation</strong></a>
 </p>
 
@@ -40,7 +40,7 @@
   - [4. Vue 3](#4-vue-3)
   - [5. Svelte](#5-svelte)
   - [6. Declarative HTML5 Drop-in](#6-declarative-html5-drop-in)
-- [🎨 Theming & CSS Custom Properties](#-theming--css-custom-properties)\n- [📚 Official Docs](https://sh20raj.github.io/Sopplayer/docs/)\n- [🧩 V1 Compatibility Demo](https://sh20raj.github.io/Sopplayer/v1/)
+- [🎨 Theming & CSS Custom Properties](#-theming--css-custom-properties)\n- [📚 Official Docs](https://playlikeboy.github.io/Sopplayer/docs/)\n- [🧩 V1 Compatibility Demo](https://playlikeboy.github.io/Sopplayer/v1/)
 - [⌨️ Keyboard Shortcuts](#️-keyboard-shortcuts)
 - [📖 API Reference](#-api-reference)
   - [Constructor Options](#constructor-options)
@@ -64,7 +64,7 @@ Sopplayer is a next-generation HTML5 video player built specifically for web dev
 - ⌨️ **Comprehensive Keyboard Navigation**: Control playback (<kbd>Space</kbd>/<kbd>K</kbd>), seeking (<kbd>&larr;</kbd>/<kbd>&rarr;</kbd>, <kbd>J</kbd>/<kbd>L</kbd>, <kbd>0</kbd>&ndash;<kbd>9</kbd>), volume (<kbd>&uarr;</kbd>/<kbd>&darr;</kbd>, <kbd>M</kbd>), fullscreen (<kbd>F</kbd>), Picture-in-Picture (<kbd>P</kbd>), and shortcuts cheat sheet (<kbd>?</kbd>).
 - 🎨 **Modern Design System & 8 Built-in Themes**: Driven entirely by CSS Custom Properties. Includes `Default` (Obsidian Glass), `Duolingo` (playful green/yellow), `Flamingo` (Coral / Rose), `Forest` (Emerald), `City` (Urban Ruby), `Sea` (Azure), `Fantasy` (Neon Cyberpunk), and `Minimal` (Monochrome).
 - 🔒 **Secure by Default**: Completely eliminated unsafe `innerHTML` concatenation with untrusted URLs, sanitizes media protocols against `javascript:` pseudo-protocol injection, and isolates error handling across event loops.
-- 🔄 **100% Backwards Compatible**: Existing CDN URLs (`cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/...`), legacy `<video class="sopplayer" data-setup="...">` tags, and Video.js 7.x API wrappers continue working seamlessly.
+- 🔄 **100% Backwards Compatible**: Existing CDN URLs (`cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/...`), legacy `<video class="sopplayer" data-setup="...">` tags, and Video.js 7.x API wrappers continue working seamlessly.
 
 ---
 
@@ -99,7 +99,7 @@ Use immutable, versioned URLs (`@v2.0.0`) to guarantee stability in production:
   <title>Sopplayer Demo</title>
 
   <!-- Sopplayer Modern CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.css">
 </head>
 <body>
 
@@ -110,7 +110,7 @@ Use immutable, versioned URLs (`@v2.0.0`) to guarantee stability in production:
   </video>
 
   <!-- Sopplayer Modern JavaScript -->
-  <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
   <script>
     const player = new Sopplayer('#my-video', {
       theme: 'default', // 'flamingo' | 'forest' | 'city' | 'sea' | 'fantasy' | 'minimal'
@@ -268,8 +268,8 @@ For CMS sites, WordPress, Webflow, or static pages where you prefer zero JavaScr
 
 ```html
 <!-- Load stylesheets and script once in head -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.css">
-<script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.css">
+<script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
 
 <!-- Add class="sopplayer" to any video tag -->
 <video class="sopplayer" data-setup='{"theme":"forest","autoplay":false}' poster="thumbnail.jpg" width="720">
@@ -416,11 +416,11 @@ Accessibility is a core design constraint in Sopplayer, not an afterthought:
 If you are using legacy Sopplayer v1.x, **your existing integrations continue to work with zero breaking changes**:
 
 ### Legacy CDN Endpoints (Fully Supported)
-- `https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/sopplayer.min.js`
-- `https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/sopplayer.min.css`
-- `https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/flamingo/sp-flamingo.min.js`
-- `https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/dtube/dtube.min.js`
-- `https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/Default/videojs.css`
+- `https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/sopplayer.min.js`
+- `https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/sopplayer.min.css`
+- `https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/flamingo/sp-flamingo.min.js`
+- `https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/dtube/dtube.min.js`
+- `https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/Default/videojs.css`
 
 ### Video.js v1 API Compatibility
 Legacy Video.js style code continues functioning via our built-in compatibility proxy:
@@ -452,7 +452,7 @@ Sopplayer v2 underwent a comprehensive security audit:
 
 ```bash
 # Clone repository
-git clone https://github.com/SH20RAJ/Sopplayer.git
+git clone https://github.com/playlikeboy/Sopplayer.git
 cd Sopplayer
 
 # Install dev dependencies
@@ -486,6 +486,6 @@ Sopplayer is open-source software licensed under the [MIT License](./LICENSE).
 ---
 
 <div align="center">
-  <p>Built with ❤️ by <a href="https://sh20raj.github.io/"><strong>Shaswat Raj</strong></a> (@SH20RAJ)</p>
-  <p>If you find Sopplayer useful, please give it a ⭐️ on <a href="https://github.com/SH20RAJ/Sopplayer">GitHub</a>!</p>
+  <p>Built with ❤️ by <a href="https://playlikeboy.github.io/"><strong>Shaswat Raj</strong></a> (@SH20RAJ)</p>
+  <p>If you find Sopplayer useful, please give it a ⭐️ on <a href="https://github.com/playlikeboy/Sopplayer">GitHub</a>!</p>
 </div>

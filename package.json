@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SH20RAJ/Sopplayer.git"
+    "url": "git+https://github.com/playlikeboy/Sopplayer.git"
   },
   "keywords": [
     "video-player",
@@ -50,12 +50,12 @@
     "custom-player",
     "responsive-video"
   ],
-  "author": "SH20RAJ (https://github.com/SH20RAJ)",
+  "author": "SH20RAJ (https://github.com/playlikeboy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SH20RAJ/Sopplayer/issues"
+    "url": "https://github.com/playlikeboy/Sopplayer/issues"
   },
-  "homepage": "https://sh20raj.github.io/Sopplayer/",
+  "homepage": "https://playlikeboy.github.io/Sopplayer/",
   "devDependencies": {
     "clean-css": "^5.3.3",
     "esbuild": "^0.28.2"

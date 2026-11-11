@@ -12,7 +12,7 @@ For production stability, we **strongly recommend using immutable, versioned URL
 ```html
 <head>
   <!-- Sopplayer Modern v2.0.0 CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.css">
 </head>
 <body>
   <video id="player" poster="poster.jpg" preload="metadata">
@@ -20,7 +20,7 @@ For production stability, we **strongly recommend using immutable, versioned URL
   </video>
 
   <!-- Sopplayer Modern v2.0.0 JavaScript -->
-  <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer@v2.0.0/dist/sopplayer.min.js"></script>
   <script>
     const player = new Sopplayer('#player', {
       theme: 'default'
@@ -32,8 +32,8 @@ For production stability, we **strongly recommend using immutable, versioned URL
 ### Legacy CDN Endpoints (Backwards Compatible)
 Historical endpoints without version tags continue to work for existing installations:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/sopplayer.min.css">
-<script src="https://cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/sopplayer.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/sopplayer.min.css">
+<script src="https://cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/sopplayer.min.js"></script>
 ```
 
 ---

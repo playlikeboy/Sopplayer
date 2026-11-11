@@ -3,14 +3,14 @@
 > A lightweight, accessible HTML5 video player with zero runtime dependencies.
 
 ## Website
-- https://sh20raj.github.io/Sopplayer/
-- https://sh20raj.github.io/Sopplayer/docs/
-- https://sh20raj.github.io/Sopplayer/demo/
-- https://sh20raj.github.io/Sopplayer/players/
-- https://sh20raj.github.io/Sopplayer/v1/
+- https://playlikeboy.github.io/Sopplayer/
+- https://playlikeboy.github.io/Sopplayer/docs/
+- https://playlikeboy.github.io/Sopplayer/demo/
+- https://playlikeboy.github.io/Sopplayer/players/
+- https://playlikeboy.github.io/Sopplayer/v1/
 
 ## Source
-- https://github.com/SH20RAJ/Sopplayer
+- https://github.com/playlikeboy/Sopplayer
 
 ## Capabilities
 - Native HTML5 video element integration

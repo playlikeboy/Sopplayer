@@ -20,7 +20,7 @@ All contributors and maintainers are expected to adhere to our [Code of Conduct]
 
 1. **Fork and Clone the repository**:
    ```bash
-   git clone https://github.com/SH20RAJ/Sopplayer.git
+   git clone https://github.com/playlikeboy/Sopplayer.git
    cd Sopplayer
    ```
 
@@ -85,6 +85,6 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) speci
 ## Core Engineering Principles
 
 1. **Zero Runtime Dependencies**: The runtime player code must remain dependency-free.
-2. **Backwards Compatibility**: Existing CDN URLs (`cdn.jsdelivr.net/gh/SH20RAJ/Sopplayer/...`) and legacy integrations must continue working without breaking existing users.
+2. **Backwards Compatibility**: Existing CDN URLs (`cdn.jsdelivr.net/gh/playlikeboy/Sopplayer/...`) and legacy integrations must continue working without breaking existing users.
 3. **Accessibility First (WCAG 2.1 AA)**: All new UI controls must include ARIA roles, labels, keyboard operability, and high contrast.
 4. **Security by Default**: Never use unsafe `innerHTML` on user input; always validate external media URLs.
